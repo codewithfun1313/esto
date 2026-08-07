@@ -431,8 +431,8 @@ img { max-width: 100%; }
   transition: transform var(--ev-transition), box-shadow var(--ev-transition);
 }
 .agent-card:hover { transform: translateY(-6px); box-shadow: var(--ev-shadow); }
-.agent-media { position: relative; aspect-ratio: 1 / 1; overflow: hidden; object-position:top; background: var(--ev-bg-alt); }
-.agent-media img { width: 100%; height: 100%; object-fit: cover;  transition: transform 0.7s ease; }
+.agent-media { position: relative; aspect-ratio: 1 / 1; overflow: hidden; object-fit: cover; object-position:top; background: var(--ev-bg-alt); }
+.agent-media img { width: 100%; height: 100%; object-fit: cover; object-position:top; transition: transform 0.7s ease; }
 .agent-card:hover .agent-media img { transform: scale(1.06); }
 .agent-social {
   position: absolute; left: 0; right: 0; bottom: 0;

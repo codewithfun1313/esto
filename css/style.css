@@ -667,3 +667,11 @@ img { max-width: 100%; }
   background: var(--ev-ink); color: #fff; padding: 0.75rem 1.2rem; border-radius: 0 0 10px 0;
 }
 .skip-link:focus { left: 0; color: #fff; }
+
+@media (max-width: 768px) {
+body {
+  font-family: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  
+  overflow-x: hidden;
+  }
+}
